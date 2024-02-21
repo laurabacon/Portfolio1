@@ -1,10 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body {
-  background: #232323;
   font-family: "IBM Plex Sans", sans-serif;
+  width: 100%,
+
 }
 
 a {
@@ -14,6 +13,11 @@ a {
   
   a:hover {
     color: black; /* Change 'red' to the desired color for hover effect */
+  }
+
+  .background {
+    background: #232323;
+    overflow: hidden;
   }
 
 .container,
@@ -37,8 +41,7 @@ a {
 .hero,
 .section2,
 .section3,
-.section4, 
-.section5 {
+.section4 {
     margin-bottom: 50px; 
   }
 
@@ -134,4 +137,8 @@ a {
       transition-delay: var(--delay);
     }
   }
+}
+
+.section5 {
+  margin-bottom: 0; 
 }

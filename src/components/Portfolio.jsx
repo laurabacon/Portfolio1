@@ -6,7 +6,7 @@ import image1 from '../assets/WeatherAPI.png';
 import image5 from '../assets/RefactorStarRay.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import '../../public/portfolio.css';
+import '../assets/css/portfolio.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -189,7 +189,7 @@ const Portfolio = () => {
 
 
   return (
-    <>
+    <div className='background'>
       <div className="container">
         <h2 className="container__headline">Welcome To My Showcase</h2>
       </div>
@@ -285,9 +285,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </>
-
-
+    </div>
     );
   }
 
