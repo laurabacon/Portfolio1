@@ -5,9 +5,14 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Nav from 'react-bootstrap/Nav';
 import { useLocation } from 'react-router-dom';
 
-function NavTabs() {
-  const currentPage = useLocation().pathname;
 
+function NavTabs({ setCurrentTab, currentTab }) {
+  const handleTabChange = (tab) => {
+    setCurrentTab(tab);
+  };
+
+  const currentPage = useLocation().pathname;
+  
   return (
     <>
       <Navbar expand={false} style={{ backgroundColor: '#f8f9fa' }}>
