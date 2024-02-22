@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import '../assets/css/contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -49,7 +50,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <div>
+      <div className='contactColor'>
         <h3>Contact</h3>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formName">

@@ -5,7 +5,7 @@ import '../assets/css/about.css';
 const About = () => {
   return (
     <section>
-      <div>
+      <div className='color'>
         <h3>About Me</h3>
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <img src={aboutMePic} alt="developer picture" style={{ width: '300px', height: 'auto' }} />
@@ -13,7 +13,7 @@ const About = () => {
           </div>
       </div>
 
-      <div id="resume">
+      <div className='color' id="resume">
       <h3>Resume</h3>
       <br />
       <h5>Download My Resume: <a href="src/assets/Resume QA Manager.pdf" download="Resume QA Manager.pdf">
