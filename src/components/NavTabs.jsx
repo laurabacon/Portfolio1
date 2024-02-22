@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Nav from 'react-bootstrap/Nav';
 import { Link, useLocation } from "react-router-dom";
 
-function OffcanvasExample() {
+function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
@@ -54,4 +54,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample;
+export default NavTabs;
