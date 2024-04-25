@@ -1,22 +1,23 @@
-.navbar,
+
 .offcanvas {
-    background-color: #f8f9fa;
+    background-color: #f9faf8;
     padding: 1rem;
 }
 
 .navbar {
-    background-color: rgba(248, 249, 250, 0.8);
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center items vertically */
-    padding: 1rem;
-    justify-content: flex-end; /* Move the toggle icon to the right */
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    justify-content: flex-end;
 }
 
 .navButton {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .offcanvas-header {
@@ -55,6 +56,4 @@
 .navbar-toggler-icon {
     background-image: url('path/to/your-toggle-icon.svg');
     background-size: contain;
-    width: 20px;
-    height: 20px;
 }

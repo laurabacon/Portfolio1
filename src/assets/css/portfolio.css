@@ -27,6 +27,7 @@ a {
 .section5 {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 100vh;
@@ -36,6 +37,12 @@ a {
 
 .container__headline  {
   font-size: 5vmin;
+}
+
+.scroll-to-view-projects {
+  font-size: 2.5vmin;
+  margin-top: 10%;
+  color: #ccc;
 }
 
 .hero,
